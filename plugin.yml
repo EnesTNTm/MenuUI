@@ -1,9 +1,0 @@
-name: MenuUI
-main: MenuUI\menui
-version: 1.8.1
-api: 3.5.9
-author: EnesTNTm
-
-commands:
-  menu:
-    description: §bMenüyü açar
