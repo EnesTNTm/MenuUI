@@ -11,7 +11,12 @@ use jojoe77777\FormAPI;
 class Menu extends PluginBase{
 	
 	public function onEnable(){
-		$this->getLogger()->info("Plugin Aktif by DemureTitan9970");
+		$this->getLogger()->info("----------[  MenuUI  ]----------
+		MenuUI Plugin activate successess
+		Creator: EnesTNTm, xChersea
+		Create by NowaLegacy administrators
+		Thanks for download my plugin :)
+		----------[  MenuUI  ]----------");
 	}
 	
 	public function onCommand(CommandSender $o, Command $kmt, string $label, array $args): bool{
@@ -128,7 +133,7 @@ switch ($re){
 		$f->setTitle("§aSunucumuzun Yetki Sahipleri");
 		$f->setContent("§aTıklayarak Bilgilerini Gör");
 		$f->addButton("§7[§cKurucu§7] §cEnesTNTm");
-		$f->addButton("§7[§cKurucu§7] §cKumandanTR");
+		$f->addButton("§7[§cKurucu§7] §cDanTheJunk");
 		$f->addButton("§7[§bGeliştirici§7] §cxChersea");
 		$f->addButton("§7[§5Yardımcı§7] §chirbil1");
 		$f->addButton("§7[§aYetkili§7] §fZEmirPvp");
@@ -180,12 +185,12 @@ switch ($re){
 		}
 	});
 	
-	$f->setTitle("§cKumandanTR §6Bilgisi");
-	$f->setContent("§cAd Soyad: §6Rezan Özkul
-§cLakap: §6Kumandan
+	$f->setTitle("§cDanTheJunk §6Bilgisi");
+	$f->setContent("§cAd Soyad: §6Arda
+§cLakap: §6Hekır
 §cYetki: Kurucu
-§cYaş: §616
-§cUzmanlık Alanı: §6Bildiğinin En İyisini Yapmak
+§cYaş: §615
+§cUzmanlık Alanı: §6Felsefe yapmak
 ");
 	$f->addButton("§cGeri");
 	$f->sendToPlayer($o);
